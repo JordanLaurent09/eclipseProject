@@ -1,10 +1,10 @@
 package javaWorkBookFirstVolume;
+import javax.swing.JOptionPane;
 
 public class ChapterOne {
 
 	public static void main(String[] args) {
-		System.out.println("Chapter One");
-		System.out.println("Chapter Two");
+		JOptionPane.showMessageDialog(null, "Some writings");
 	}
 
 }
