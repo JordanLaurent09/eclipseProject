@@ -26,12 +26,17 @@ public class ChapterOne {
 		
 		
 		// Use showInputDialog() method
-		
+		// 1. Asking for user's name
 		String result;
 		
 		result = JOptionPane.showInputDialog(null, "What is your name?");
 		
 		JOptionPane.showMessageDialog(null, "Hello, " + result + ".");
+		
+		
+		// 2. Asking for area code
+		
+		JOptionPane.showInputDialog(null, "Enter your area code", "Area code request", JOptionPane.QUESTION_MESSAGE);
 	}
 
 }
