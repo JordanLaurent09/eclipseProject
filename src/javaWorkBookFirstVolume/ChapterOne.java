@@ -37,6 +37,16 @@ public class ChapterOne {
 		// 2. Asking for area code
 		
 		JOptionPane.showInputDialog(null, "Enter your area code", "Area code request", JOptionPane.QUESTION_MESSAGE);
+		
+		
+		// 3. Salary dialog
+		
+		
+		String occupation = JOptionPane.showInputDialog(null, "Enter your occupation", "Occupation blank", JOptionPane.INFORMATION_MESSAGE); 
+		
+		String salary = JOptionPane.showInputDialog(null, "How big is your salary", "Salary request", JOptionPane.QUESTION_MESSAGE);
+		
+		JOptionPane.showMessageDialog(null, "My occupation is " + occupation + " and my salary is " + salary);
 	}
 
 }
